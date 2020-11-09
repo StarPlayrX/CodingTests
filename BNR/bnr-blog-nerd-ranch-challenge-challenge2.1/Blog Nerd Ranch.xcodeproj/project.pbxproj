@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D2AE9E525479C120089232F /* PostMetadataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE9E325479C120089232F /* PostMetadataCollectionViewCell.swift */; };
+		2D2AE9E625479C120089232F /* PostMetadataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE9E325479C120089232F /* PostMetadataCollectionViewCell.swift */; };
+		2D2AE9E725479C120089232F /* PostMetadataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE9E325479C120089232F /* PostMetadataCollectionViewCell.swift */; };
+		2D2AE9E825479C120089232F /* PostMetadataCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D2AE9E425479C120089232F /* PostMetadataCollectionViewCell.xib */; };
+		2D2AE9E925479C120089232F /* PostMetadataCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D2AE9E425479C120089232F /* PostMetadataCollectionViewCell.xib */; };
+		2D2AE9EA25479C120089232F /* PostMetadataCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D2AE9E425479C120089232F /* PostMetadataCollectionViewCell.xib */; };
+		2D457DE32549053D003B1440 /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D457DE12549053D003B1440 /* HeaderCollectionViewCell.swift */; };
+		2D457DE42549053D003B1440 /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D457DE12549053D003B1440 /* HeaderCollectionViewCell.swift */; };
+		2D457DE52549053D003B1440 /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D457DE12549053D003B1440 /* HeaderCollectionViewCell.swift */; };
+		2D457DE62549053D003B1440 /* HeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D457DE22549053D003B1440 /* HeaderCollectionViewCell.xib */; };
+		2D457DE72549053D003B1440 /* HeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D457DE22549053D003B1440 /* HeaderCollectionViewCell.xib */; };
+		2D457DE82549053D003B1440 /* HeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D457DE22549053D003B1440 /* HeaderCollectionViewCell.xib */; };
+		8367F7D3215C2E5000C250AC /* PostMetadataDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8367F7D2215C2E5000C250AC /* PostMetadataDataSource.swift */; };
+		8367F7D4215C2E5F00C250AC /* PostMetadataDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8367F7D2215C2E5000C250AC /* PostMetadataDataSource.swift */; };
+		836E38D32139A918005B928C /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E38D22139A918005B928C /* Server.swift */; };
+		836E38D42139A918005B928C /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E38D22139A918005B928C /* Server.swift */; };
+		83B00ACA21359CFF000C70F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B00AC921359CFF000C70F9 /* AppDelegate.swift */; };
+		83B00ACF21359CFF000C70F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B00ACD21359CFF000C70F9 /* Main.storyboard */; };
+		83B00AD121359D00000C70F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B00AD021359D00000C70F9 /* Assets.xcassets */; };
+		83B00AD421359D00000C70F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B00AD221359D00000C70F9 /* LaunchScreen.storyboard */; };
+		83B00ADF21359D00000C70F9 /* PostMetadataDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B00ADE21359D00000C70F9 /* PostMetadataDataSourceTests.swift */; };
+		83B00AEA21359D00000C70F9 /* Blog_Nerd_RanchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B00AE921359D00000C70F9 /* Blog_Nerd_RanchUITests.swift */; };
+		83B00AFC21359FE1000C70F9 /* PostMetadataCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B00AFB21359FE1000C70F9 /* PostMetadataCollectionViewController.swift */; };
+		83B00B00213606BC000C70F9 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B00AFF213606BC000C70F9 /* PostViewController.swift */; };
+		83B00B03213621EE000C70F9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B00B02213621EE000C70F9 /* Post.swift */; };
+		83B00B0521362224000C70F9 /* PostMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B00B0421362224000C70F9 /* PostMetadata.swift */; };
+		83C918E9213DDBD100FD6F83 /* DisplayOrdering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C918E8213DDBD100FD6F83 /* DisplayOrdering.swift */; };
+		83C918ED213E173400FD6F83 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B00B02213621EE000C70F9 /* Post.swift */; };
+		83C918EE213E173700FD6F83 /* DisplayOrdering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C918E8213DDBD100FD6F83 /* DisplayOrdering.swift */; };
+		83C918EF213E18E500FD6F83 /* PostMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B00B0421362224000C70F9 /* PostMetadata.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83B00ADB21359D00000C70F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83B00ABE21359CFF000C70F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B00AC521359CFF000C70F9;
+			remoteInfo = "Blog Nerd Ranch";
+		};
+		83B00AE621359D00000C70F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83B00ABE21359CFF000C70F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B00AC521359CFF000C70F9;
+			remoteInfo = "Blog Nerd Ranch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D2AE9E325479C120089232F /* PostMetadataCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMetadataCollectionViewCell.swift; sourceTree = "<group>"; };
+		2D2AE9E425479C120089232F /* PostMetadataCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostMetadataCollectionViewCell.xib; sourceTree = "<group>"; };
+		2D457DE12549053D003B1440 /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		2D457DE22549053D003B1440 /* HeaderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCollectionViewCell.xib; sourceTree = "<group>"; };
+		8367F7D2215C2E5000C250AC /* PostMetadataDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostMetadataDataSource.swift; sourceTree = "<group>"; };
+		836E38D22139A918005B928C /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		83B00AC621359CFF000C70F9 /* Blog Nerd Ranch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blog Nerd Ranch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B00AC921359CFF000C70F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83B00ACE21359CFF000C70F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83B00AD021359D00000C70F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83B00AD321359D00000C70F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83B00AD521359D00000C70F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B00ADA21359D00000C70F9 /* Blog Nerd RanchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blog Nerd RanchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B00ADE21359D00000C70F9 /* PostMetadataDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMetadataDataSourceTests.swift; sourceTree = "<group>"; };
+		83B00AE021359D00000C70F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B00AE521359D00000C70F9 /* Blog Nerd RanchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blog Nerd RanchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B00AE921359D00000C70F9 /* Blog_Nerd_RanchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog_Nerd_RanchUITests.swift; sourceTree = "<group>"; };
+		83B00AEB21359D00000C70F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B00AFB21359FE1000C70F9 /* PostMetadataCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMetadataCollectionViewController.swift; sourceTree = "<group>"; };
+		83B00AFF213606BC000C70F9 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		83B00B02213621EE000C70F9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		83B00B0421362224000C70F9 /* PostMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMetadata.swift; sourceTree = "<group>"; };
+		83C918E8213DDBD100FD6F83 /* DisplayOrdering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayOrdering.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83B00AC321359CFF000C70F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B00AD721359D00000C70F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B00AE221359D00000C70F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83B00ABD21359CFF000C70F9 = {
+			isa = PBXGroup;
+			children = (
+				83B00AC821359CFF000C70F9 /* Blog Nerd Ranch */,
+				83B00ADD21359D00000C70F9 /* Blog Nerd RanchTests */,
+				83B00AE821359D00000C70F9 /* Blog Nerd RanchUITests */,
+				83B00AC721359CFF000C70F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83B00AC721359CFF000C70F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83B00AC621359CFF000C70F9 /* Blog Nerd Ranch.app */,
+				83B00ADA21359D00000C70F9 /* Blog Nerd RanchTests.xctest */,
+				83B00AE521359D00000C70F9 /* Blog Nerd RanchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83B00AC821359CFF000C70F9 /* Blog Nerd Ranch */ = {
+			isa = PBXGroup;
+			children = (
+				83B00B0E21389CD6000C70F9 /* Cells */,
+				83B00B0D21389CB9000C70F9 /* Controllers */,
+				83B00B01213621B1000C70F9 /* Models */,
+				83B00AC921359CFF000C70F9 /* AppDelegate.swift */,
+				83B00ACD21359CFF000C70F9 /* Main.storyboard */,
+				83B00AD221359D00000C70F9 /* LaunchScreen.storyboard */,
+				83B00AD521359D00000C70F9 /* Info.plist */,
+			);
+			path = "Blog Nerd Ranch";
+			sourceTree = "<group>";
+		};
+		83B00ADD21359D00000C70F9 /* Blog Nerd RanchTests */ = {
+			isa = PBXGroup;
+			children = (
+				83B00ADE21359D00000C70F9 /* PostMetadataDataSourceTests.swift */,
+				83B00AE021359D00000C70F9 /* Info.plist */,
+			);
+			path = "Blog Nerd RanchTests";
+			sourceTree = "<group>";
+		};
+		83B00AE821359D00000C70F9 /* Blog Nerd RanchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83B00AE921359D00000C70F9 /* Blog_Nerd_RanchUITests.swift */,
+				83B00AEB21359D00000C70F9 /* Info.plist */,
+			);
+			path = "Blog Nerd RanchUITests";
+			sourceTree = "<group>";
+		};
+		83B00B01213621B1000C70F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8367F7D2215C2E5000C250AC /* PostMetadataDataSource.swift */,
+				83B00B02213621EE000C70F9 /* Post.swift */,
+				83B00B0421362224000C70F9 /* PostMetadata.swift */,
+				836E38D22139A918005B928C /* Server.swift */,
+				83C918E8213DDBD100FD6F83 /* DisplayOrdering.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		83B00B0D21389CB9000C70F9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				83B00AFB21359FE1000C70F9 /* PostMetadataCollectionViewController.swift */,
+				83B00AFF213606BC000C70F9 /* PostViewController.swift */,
+				83B00AD021359D00000C70F9 /* Assets.xcassets */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		83B00B0E21389CD6000C70F9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2D457DE12549053D003B1440 /* HeaderCollectionViewCell.swift */,
+				2D457DE22549053D003B1440 /* HeaderCollectionViewCell.xib */,
+				2D2AE9E325479C120089232F /* PostMetadataCollectionViewCell.swift */,
+				2D2AE9E425479C120089232F /* PostMetadataCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83B00AC521359CFF000C70F9 /* Blog Nerd Ranch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B00AEE21359D00000C70F9 /* Build configuration list for PBXNativeTarget "Blog Nerd Ranch" */;
+			buildPhases = (
+				83B00AC221359CFF000C70F9 /* Sources */,
+				83B00AC321359CFF000C70F9 /* Frameworks */,
+				83B00AC421359CFF000C70F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blog Nerd Ranch";
+			productName = "Blog Nerd Ranch";
+			productReference = 83B00AC621359CFF000C70F9 /* Blog Nerd Ranch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83B00AD921359D00000C70F9 /* Blog Nerd RanchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B00AF121359D00000C70F9 /* Build configuration list for PBXNativeTarget "Blog Nerd RanchTests" */;
+			buildPhases = (
+				83B00AD621359D00000C70F9 /* Sources */,
+				83B00AD721359D00000C70F9 /* Frameworks */,
+				83B00AD821359D00000C70F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83B00ADC21359D00000C70F9 /* PBXTargetDependency */,
+			);
+			name = "Blog Nerd RanchTests";
+			productName = "Blog Nerd RanchTests";
+			productReference = 83B00ADA21359D00000C70F9 /* Blog Nerd RanchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83B00AE421359D00000C70F9 /* Blog Nerd RanchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B00AF421359D00000C70F9 /* Build configuration list for PBXNativeTarget "Blog Nerd RanchUITests" */;
+			buildPhases = (
+				83B00AE121359D00000C70F9 /* Sources */,
+				83B00AE221359D00000C70F9 /* Frameworks */,
+				83B00AE321359D00000C70F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83B00AE721359D00000C70F9 /* PBXTargetDependency */,
+			);
+			name = "Blog Nerd RanchUITests";
+			productName = "Blog Nerd RanchUITests";
+			productReference = 83B00AE521359D00000C70F9 /* Blog Nerd RanchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83B00ABE21359CFF000C70F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+				TargetAttributes = {
+					83B00AC521359CFF000C70F9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1130;
+					};
+					83B00AD921359D00000C70F9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1130;
+						TestTargetID = 83B00AC521359CFF000C70F9;
+					};
+					83B00AE421359D00000C70F9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1130;
+						TestTargetID = 83B00AC521359CFF000C70F9;
+					};
+				};
+			};
+			buildConfigurationList = 83B00AC121359CFF000C70F9 /* Build configuration list for PBXProject "Blog Nerd Ranch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83B00ABD21359CFF000C70F9;
+			productRefGroup = 83B00AC721359CFF000C70F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83B00AC521359CFF000C70F9 /* Blog Nerd Ranch */,
+				83B00AD921359D00000C70F9 /* Blog Nerd RanchTests */,
+				83B00AE421359D00000C70F9 /* Blog Nerd RanchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83B00AC421359CFF000C70F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B00AD421359D00000C70F9 /* LaunchScreen.storyboard in Resources */,
+				2D2AE9E825479C120089232F /* PostMetadataCollectionViewCell.xib in Resources */,
+				83B00AD121359D00000C70F9 /* Assets.xcassets in Resources */,
+				2D457DE62549053D003B1440 /* HeaderCollectionViewCell.xib in Resources */,
+				83B00ACF21359CFF000C70F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B00AD821359D00000C70F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2AE9E925479C120089232F /* PostMetadataCollectionViewCell.xib in Resources */,
+				2D457DE72549053D003B1440 /* HeaderCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B00AE321359D00000C70F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2AE9EA25479C120089232F /* PostMetadataCollectionViewCell.xib in Resources */,
+				2D457DE82549053D003B1440 /* HeaderCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83B00AC221359CFF000C70F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836E38D32139A918005B928C /* Server.swift in Sources */,
+				83B00B00213606BC000C70F9 /* PostViewController.swift in Sources */,
+				83B00ACA21359CFF000C70F9 /* AppDelegate.swift in Sources */,
+				83B00B0521362224000C70F9 /* PostMetadata.swift in Sources */,
+				83C918E9213DDBD100FD6F83 /* DisplayOrdering.swift in Sources */,
+				2D2AE9E525479C120089232F /* PostMetadataCollectionViewCell.swift in Sources */,
+				8367F7D3215C2E5000C250AC /* PostMetadataDataSource.swift in Sources */,
+				83B00AFC21359FE1000C70F9 /* PostMetadataCollectionViewController.swift in Sources */,
+				83B00B03213621EE000C70F9 /* Post.swift in Sources */,
+				2D457DE32549053D003B1440 /* HeaderCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B00AD621359D00000C70F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2AE9E625479C120089232F /* PostMetadataCollectionViewCell.swift in Sources */,
+				2D457DE42549053D003B1440 /* HeaderCollectionViewCell.swift in Sources */,
+				836E38D42139A918005B928C /* Server.swift in Sources */,
+				83C918EF213E18E500FD6F83 /* PostMetadata.swift in Sources */,
+				83B00ADF21359D00000C70F9 /* PostMetadataDataSourceTests.swift in Sources */,
+				83C918ED213E173400FD6F83 /* Post.swift in Sources */,
+				83C918EE213E173700FD6F83 /* DisplayOrdering.swift in Sources */,
+				8367F7D4215C2E5F00C250AC /* PostMetadataDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B00AE121359D00000C70F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D457DE52549053D003B1440 /* HeaderCollectionViewCell.swift in Sources */,
+				83B00AEA21359D00000C70F9 /* Blog_Nerd_RanchUITests.swift in Sources */,
+				2D2AE9E725479C120089232F /* PostMetadataCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83B00ADC21359D00000C70F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83B00AC521359CFF000C70F9 /* Blog Nerd Ranch */;
+			targetProxy = 83B00ADB21359D00000C70F9 /* PBXContainerItemProxy */;
+		};
+		83B00AE721359D00000C70F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83B00AC521359CFF000C70F9 /* Blog Nerd Ranch */;
+			targetProxy = 83B00AE621359D00000C70F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83B00ACD21359CFF000C70F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83B00ACE21359CFF000C70F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83B00AD221359D00000C70F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83B00AD321359D00000C70F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83B00AEC21359D00000C70F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83B00AED21359D00000C70F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83B00AEF21359D00000C70F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blog Nerd Ranch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.Blog-Nerd-Ranch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		83B00AF021359D00000C70F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blog Nerd Ranch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.Blog-Nerd-Ranch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		83B00AF221359D00000C70F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blog Nerd RanchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.Blog-Nerd-RanchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blog Nerd Ranch.app/Blog Nerd Ranch";
+			};
+			name = Debug;
+		};
+		83B00AF321359D00000C70F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blog Nerd RanchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.Blog-Nerd-RanchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blog Nerd Ranch.app/Blog Nerd Ranch";
+			};
+			name = Release;
+		};
+		83B00AF521359D00000C70F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blog Nerd RanchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.Blog-Nerd-RanchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blog Nerd Ranch";
+			};
+			name = Debug;
+		};
+		83B00AF621359D00000C70F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blog Nerd RanchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.Blog-Nerd-RanchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blog Nerd Ranch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83B00AC121359CFF000C70F9 /* Build configuration list for PBXProject "Blog Nerd Ranch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B00AEC21359D00000C70F9 /* Debug */,
+				83B00AED21359D00000C70F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B00AEE21359D00000C70F9 /* Build configuration list for PBXNativeTarget "Blog Nerd Ranch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B00AEF21359D00000C70F9 /* Debug */,
+				83B00AF021359D00000C70F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B00AF121359D00000C70F9 /* Build configuration list for PBXNativeTarget "Blog Nerd RanchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B00AF221359D00000C70F9 /* Debug */,
+				83B00AF321359D00000C70F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B00AF421359D00000C70F9 /* Build configuration list for PBXNativeTarget "Blog Nerd RanchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B00AF521359D00000C70F9 /* Debug */,
+				83B00AF621359D00000C70F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83B00ABE21359CFF000C70F9 /* Project object */;
+}

@@ -1,0 +1,134 @@
+{
+  "defaults": {
+    "fixedDelay": 100,
+    "method": "GET",
+    "status": 200
+  },
+  "groups": [
+    {
+      "name": "post",
+      "routes": [
+        {
+          "request": {
+            "url": "1"
+          },
+          "response": {
+            "bodyFileName": "post/1.json"
+          }
+        },
+        {
+          "request": {
+            "url": "2"
+          },
+          "response": {
+            "bodyFileName": "post/2.json"
+          }
+        },
+        {
+          "request": {
+            "url": "3"
+          },
+          "response": {
+            "bodyFileName": "post/3.json"
+          }
+        },
+        {
+          "request": {
+            "url": "4"
+          },
+          "response": {
+            "bodyFileName": "post/4.json",
+            "fixedDelayMilliseconds": 1500
+          }
+        },
+        {
+          "request": {
+            "url": "5"
+          },
+          "response": {
+            "bodyFileName": "post/5.json"
+          }
+        },
+        {
+          "request": {
+            "url": "6"
+          },
+          "response": {
+            "bodyFileName": "post/6.json"
+          }
+        },
+        {
+          "request": {
+            "url": ""
+          },
+          "response": {
+            "bodyFileName": "post/all.json",
+            "fixedDelayMilliseconds": 2000
+          }
+        }
+      ]
+    },
+    {
+      "name": "post-metadata",
+      "routes": [
+        {
+          "request": {
+            "url": "1"
+          },
+          "response": {
+            "bodyFileName": "post-metadata/1.json"
+          }
+        },
+        {
+          "request": {
+            "url": "2"
+          },
+          "response": {
+            "bodyFileName": "post-metadata/2.json"
+          }
+        },
+        {
+          "request": {
+            "url": "3"
+          },
+          "response": {
+            "bodyFileName": "post-metadata/3.json"
+          }
+        },
+        {
+          "request": {
+            "url": "4"
+          },
+          "response": {
+            "bodyFileName": "post-metadata/4.json"
+          }
+        },
+        {
+          "request": {
+            "url": "5"
+          },
+          "response": {
+            "bodyFileName": "post-metadata/5.json"
+          }
+        },
+        {
+          "request": {
+            "url": "6"
+          },
+          "response": {
+            "bodyFileName": "post-metadata/6.json"
+          }
+        },
+        {
+          "request": {
+            "url": ""
+          },
+          "response": {
+            "bodyFileName": "post-metadata/all.json"
+          }
+        }
+
+      ]
+    }
+  ]
+}

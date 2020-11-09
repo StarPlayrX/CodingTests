@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0940"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "83B00AC521359CFF000C70F9"
+               BuildableName = "Blog Nerd Ranch.app"
+               BlueprintName = "Blog Nerd Ranch"
+               ReferencedContainer = "container:Blog Nerd Ranch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <PreActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "exec &gt; ${PROJECT_DIR}/pretest.log 2&gt;&amp;1&#10;echo &quot;Shutting down existing wiremock server...&quot;&#10;cd &quot;${PROJECT_DIR}&quot; &amp;&amp; ./stop-mocks.sh&#10;&#10;echo &quot;Starting up the wiremock server...&quot;&#10;cd &quot;${PROJECT_DIR}&quot; &amp;&amp; ./start-mocks.sh &amp;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "83B00AE421359D00000C70F9"
+                     BuildableName = "Blog Nerd RanchUITests.xctest"
+                     BlueprintName = "Blog Nerd RanchUITests"
+                     ReferencedContainer = "container:Blog Nerd Ranch.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PreActions>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "83B00AC521359CFF000C70F9"
+            BuildableName = "Blog Nerd Ranch.app"
+            BlueprintName = "Blog Nerd Ranch"
+            ReferencedContainer = "container:Blog Nerd Ranch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "83B00AD921359D00000C70F9"
+               BuildableName = "Blog Nerd RanchTests.xctest"
+               BlueprintName = "Blog Nerd RanchTests"
+               ReferencedContainer = "container:Blog Nerd Ranch.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "83B00AE421359D00000C70F9"
+               BuildableName = "Blog Nerd RanchUITests.xctest"
+               BlueprintName = "Blog Nerd RanchUITests"
+               ReferencedContainer = "container:Blog Nerd Ranch.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <PreActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "exec &gt; ${PROJECT_DIR}/prerun.log 2&gt;&amp;1&#10;echo &quot;Shutting down existing wiremock server...&quot;&#10;cd &quot;${PROJECT_DIR}&quot; &amp;&amp; ./stop-mocks.sh&#10;&#10;echo &quot;Starting up the wiremock server...&quot;&#10;cd &quot;${PROJECT_DIR}&quot; &amp;&amp; ./start-mocks.sh &amp;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "83B00AC521359CFF000C70F9"
+                     BuildableName = "Blog Nerd Ranch.app"
+                     BlueprintName = "Blog Nerd Ranch"
+                     ReferencedContainer = "container:Blog Nerd Ranch.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PreActions>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "83B00AC521359CFF000C70F9"
+            BuildableName = "Blog Nerd Ranch.app"
+            BlueprintName = "Blog Nerd Ranch"
+            ReferencedContainer = "container:Blog Nerd Ranch.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "83B00AC521359CFF000C70F9"
+            BuildableName = "Blog Nerd Ranch.app"
+            BlueprintName = "Blog Nerd Ranch"
+            ReferencedContainer = "container:Blog Nerd Ranch.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

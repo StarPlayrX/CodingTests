@@ -1,0 +1,12 @@
+{
+  "id": "1",
+  "title": "Morbi congue diam eu magna",
+  "publishDate": "2018-07-15T23:03:29Z",
+  "postId": "1",
+  "summary": "Donec dictum ligula purus, ut suscipit arcu cursus ut. Aliquam auctor, nibh vel vehicula viverra, libero enim sodales dolor, ac auctor odio ligula id enim.",
+  "author": {
+    "name": "Kerri Ferguson",
+    "image": "/images/authors/kerri.jpg",
+    "title": "iOS Engineer"
+  }
+}

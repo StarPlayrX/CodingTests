@@ -1,0 +1,12 @@
+{
+  "id": "6",
+  "title": "Pellentesque sit amet ipsum justo.",
+  "publishDate": "2018-08-30T23:03:29Z",
+  "postId": "6",
+  "summary": "Nunc scelerisque purus at tristique accumsan.",
+  "author": {
+    "name": "Kerri Ferguson",
+    "image": "/images/authors/kerri.jpg",
+    "title": "iOS Engineer"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "4",
+  "title": "Proin vehicula nisi nec dui.",
+  "publishDate": "2018-08-15T23:03:29Z",
+  "postId": "4",
+  "summary": "Cras facilisis sit amet leo sed egestas.",
+  "author": {
+    "name": "Archibald Sweet",
+    "image": "/images/authors/archibald.jpg",
+    "title": "Web Engineer"
+  }
+}
